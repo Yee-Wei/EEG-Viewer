@@ -1,1 +1,1 @@
-![demo](eegProject\assets\demo.png)
+![demo](eegProject/assets/demo.png)
