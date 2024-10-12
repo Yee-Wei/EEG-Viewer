@@ -1,1 +1,1 @@
-![EEG-Viewer](C:\Users\yvett\Pictures\demo\EEG-Viewer.gif)
+![EEG-Viewer](D:\git\EEG-Viewer\EEG-Viewer.gif)
