@@ -1,0 +1,39 @@
+# config.yaml EEG信号接收和处理项目的配置文件
+
+# 串口设置
+serial:
+    port: 'COM3'
+    baud_rate: 460800
+
+# 数据处理
+data_processing:
+    sampling_rate: 250
+    byte_num: 2
+    channels: 4
+    packet_size: 38
+    heads: [0xAA, 0xFF, 0xF1]
+    valid_data_indices: [4, 19]
+    data_length_ind: 3
+    check_indices: [36, 37]
+    slice_interval: 1 # s
+    raw_buffer_size: 460800
+    buffer_size: 250
+
+# 可视化
+visualization:
+    refresh_rate: 100
+
+# 存储
+storage:
+    enabled: true
+    data_dir: '../data'
+    visualize_dir: '../docs/visualize'
+    data_format: 'csv'
+    picture_format: 'png'
+    autosave_interval: 2 # (s)
+
+# 日志
+logging:
+    level: 'INFO'
+    log_to_file: true
+    log_file_path: './logs/eeg_signal_processor.log'
