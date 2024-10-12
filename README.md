@@ -1,1 +1,0 @@
-![EEG-Viewer](D:\git\EEG-Viewer\EEG-Viewer.gif)
